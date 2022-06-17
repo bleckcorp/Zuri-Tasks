@@ -15,15 +15,15 @@ main {
   margin: auto;
   display: flex;
   width: 50%;
-  height: 120vh;
-  align-items: center;
-  justify-content: center;
-}
+height: 100vh;
+ align-items: center;
+  justify-content: center;}
 
 div {
   padding: 2em;
-  height: 50%;
-  width: 100%;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
   
 
 }
@@ -42,11 +42,12 @@ div {
 }
 
 button {
-  border-radius: 15px;
+  border-radius: 25px;
   font-size: 10px;
   padding: 10px;
   font-family: "Lexend Deca";
   font-weight:600; 
+  box-shadow: none;
   }
 .sedbut{border-color:hsl(31, 77%, 52%) ;
 color: hsl(31, 77%, 52%);}
