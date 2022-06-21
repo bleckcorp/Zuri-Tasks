@@ -1,0 +1,6 @@
+body {display: flex;}
+
+form {display: flex;flex-direction: column;}
+
+.button {background-color: hsl(154, 59%, 51%);
+color: white;}
